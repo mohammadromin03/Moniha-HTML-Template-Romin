@@ -1,0 +1,20 @@
+/* Extra Large Devices : 1200px */
+@media (min-width: 1200px) and (max-width: 2000px) {
+
+}
+/* Large Devices : 992px and Up */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+/* Medium Devices : 768px and Up */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+} 
+/* Small Devices : 480px and Up */
+@media (min-width: 480px) and (max-width: 767.98px) {
+
+}
+/* Extra Small Devices : 320px */
+@media (min-width: 320px) and (max-width: 479.98px) {
+
+}

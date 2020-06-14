@@ -1,0 +1,446 @@
+/*==================================================
+
+	Template Name: 
+	Template URI: 
+	Author: Mohammad Romin
+	Author URI: https://romincomputer.blogspot.com/
+	Description: 
+	Version: 1.0
+	
+====================================================*/
+/* ======= CSS Document ========= */
+/************ TABLE OF CONTENTS ***************
+
+	01. Google Fonts
+	02. General css
+	0.  About Page
+	0.  Contact Page
+	0.  Contact Page 2
+
+***********************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+
+body {
+	font-family: 'Abhaya Libre', serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+a,
+a:hover {
+	text-decoration: none;
+	transition: .3s;
+}
+p {
+	margin-bottom: 0;
+}
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+li {
+    list-style: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+.custom-col-4 {
+    width: 30%;
+    float: left;
+}
+/* Herder Area Start */
+.header-area-top {
+    background-color: #f6f5f6;
+    padding: 12px 0;
+    border-bottom: 1px solid #cbc6c6;
+}
+.header-top-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.header-top-menu ul li a {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #2b2b2b;
+}
+.header-top-menu ul li a:hover,
+.footer-menu ul li a:hover,
+.about-social ul li a:hover,
+.footer-social ul li a:hover,
+.main-menu ul li a:hover {
+    color: #eb2f06;
+}
+.header-top-social ul {
+    text-align: right;
+}
+.header-top-social ul li {
+    display: inline-block;
+}
+.header-top-social ul li a {
+    color: #9b9b9b;
+    padding: 15px 10px;
+	font-size: 15px;
+}
+.header-top-social ul li .active,
+.header-top-social ul li a:hover {
+    background-color: #eb2f06;
+    color: #fff;
+}
+/* Herder Area End */
+
+/* Logo */
+.logo {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Menu Area Start */
+.menu-area {
+    background-color: #333333;
+    padding: 25px 0;
+}
+.main-menu ul li {
+    display: inline-block;
+}
+.main-menu ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 7px 17px 9px 15px;
+    border-left: 1px solid #5e5e5e;
+}
+.main-menu ul li:last-child a {
+    border-right: 1px solid #5e5e5e;
+}
+.main-menu ul li a i {
+    font-size: 11px;
+	padding-left: 2px;
+}
+/* Menu Area End */
+
+
+/* Search Start */
+.wrapper {
+	display: flex;
+	float: right;
+}
+.trigger_search {
+    background-color: transparent;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    outline: 0;
+    cursor: pointer;
+    border-left: 1px solid #5e5e5e;
+}
+.input {
+	border-radius: 20px;
+	border:0;
+	outline: 0;
+	transition: 0.25s ease-in-out all;
+	width: 0;
+	padding: 0;
+	margin-right: -25px;
+	height: 40px;
+}
+.input-open{
+	width: 250px;
+	padding: 0 30px;
+	margin-right: 10px;
+}
+/* Search End */
+
+/* Section Title Start */
+.section-area {
+    padding: 50px 0 40px;
+}
+.section-title h2 {
+    font-size: 38px;
+    text-transform: capitalize;
+    color: #2b2b2b;
+    line-height: 46px;
+}
+.section-shape {
+    background-color: #eb2f06;
+    height: 1px;
+}
+/* Section Title End */
+
+/*====================== 
+	About Page Start 
+========================*/
+.about-area {
+    padding-bottom: 80px;
+}
+.about-text-left {
+    margin-top: 26px;
+}
+.about-text-left p, 
+.about-content p {
+    color: #636262;
+}
+.about-text-left blockquote {
+    background-color: #f3f3f3;
+    padding: 32px 58px 26px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    line-height: 30px;
+    color: #2b2b2b;
+    font-weight: 600;
+	margin-top: 40px;
+}
+.about-text-left blockquote span {
+    color: #ededed;
+    font-size: 50px;
+    position: absolute;
+    left: 28px;
+    top: 28px;
+}
+.about-content {
+	margin-top: 30px;
+}
+.about-sign-img {
+	text-align: center;
+	margin: 40px 0 25px;
+}
+.about-social ul {
+    text-align: center;
+}
+.about-social ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.about-social ul li a {
+    color: #9b9b9b;
+    font-size: 14px;
+}
+/* About Page End */
+
+
+
+
+
+/*======================== 
+	Contact Page Start 
+==========================*/
+.reach {
+    position: relative;
+}
+.reach span {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    padding: 9px 11px 10px 16px;
+}
+.reach input {
+    width: 100%;
+    padding: 15px 10px 15px 23%;
+    border-radius: 25px;
+    border: 1px solid #eee;
+}
+.contact-area {
+    padding: 70px 0 90px;
+}
+.contact-form label {
+    text-transform: capitalize;
+}
+.contact-form label span {
+	color: #eb2f06;
+}
+.contact-form input[type="text"], .contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+	border: 1px solid #cacaca;
+}
+.contact-form input[type="text"]:focus, input[type="email"]:focus,
+.contact-form textarea:focus {
+	border-color: #eb2f06;
+}
+.contact-form textarea {
+    height: 160px;
+    resize: none;
+}
+.contact-form input[type="submit"] {
+    background-color: #eb2f06;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    line-height: 25px;
+    border: none;
+    width: 70px;
+    height: 38px;
+	border-radius: 3px;
+    transition: .8s;
+}
+.contact-form input[type="submit"]:hover {
+    color: #eb2f06;
+    background-color: transparent;
+    border: 1px solid #eb2f06;
+}
+/* Contact Page End */
+
+/*======================== 
+	Contact Page 2 Start 
+==========================*/
+.contact-area p {
+    padding: 20px 0 25px;
+	color: #636262;
+	line-height: 29px;
+}
+.contact-form-2 input[type="text"], .contact-form-2 input[type="email"] {
+    width: 50%;
+}
+.sidebar-contact-right {
+    text-align: center;
+}
+.contact-about-me h3,
+.instagram h3,
+.newsletter h3 {
+    font-size: 24px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #2b2b2b;
+    position: relative;
+	margin-bottom: 25px;
+}
+.contact-about-me h3:before,
+.instagram h3:before,
+.newsletter h3:before {
+    content: "";
+    position: absolute;
+    background-color: #ff3f34;
+    width: 60px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -30px;
+}
+.contact-about-me p,
+.newsletter p {
+    color: #636262;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 0 20px;
+    margin: 30px 0 15px;
+}
+.contact-about-me h6 {
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #636262;
+}
+.contact-about-me h6 span {
+    color: #ff3f34;
+    text-transform: capitalize;
+}
+.contact-about-social {
+    margin: 20px 0;
+}
+.contact-about-social ul li {
+    display: inline-block;
+}
+.contact-about-social ul li a {
+    font-size: 14px;
+    color: #9b9b9b;
+    border-right: 1px solid #dfdcdc;
+    padding: 0 10px;
+}
+.contact-about-social ul li:last-child a {
+    border-right: none;
+}
+.contact-about-social ul li a:hover {
+    color: #ff3f34;
+}
+.instagram {
+    overflow: hidden;
+	margin-bottom: 20px;
+}
+.instagram-img {
+    padding-left: 21px;
+}
+.instagram li {
+    padding: 5px;
+}
+.instagram li a img {
+    width: 100%;
+}
+.subscribe input[type="email"] {
+    width: 96%;
+    padding: 10px 15px 10px 37px;
+    margin-bottom: 20px;
+    border: 1px solid #cacaca;
+    border-radius: 25px;
+    color: #aeadad;
+    height: 46px;
+    background-color: #efefef;
+    border: transparent;
+}
+.subscribe input[type="email"]:focus {
+	border-color: #eb2f06;
+}
+.subscribe input[type="submit"] {
+    background-color: #eb2f06;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    line-height: 18px;
+    border: none;
+    width: 95%;
+    height: 48px;
+    transition: .8s;
+    border-radius: 25px;
+}
+.subscribe input[type="submit"]:hover {
+    color: #eb2f06;
+    background-color: transparent;
+    border: 1px solid #eb2f06;
+}
+/* Contact Page 2 End */
+
+
+/* Footer Area Start */
+.footer-area {
+    background-color: #f1f0f0;
+	padding: 63px 0;
+}
+.footer-menu ul {
+    text-align: right;
+}
+.footer-menu ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+.footer-menu ul li a {
+    font-size: 14px;
+    text-transform: uppercase;
+	color: #2b2b2b;
+}
+.copyright-text p {
+    font-size: 14px;
+	color: #2b2b2b;
+	text-align: right;
+}
+.footer-social ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.footer-social ul li a {
+    font-size: 14px;
+	color: #2b2b2b;
+}
+.footer-shape {
+    background-color: #dfdcdc;
+    height: 1px;
+    margin: 23px 0 29px;
+}
+/* Footer Area End */
