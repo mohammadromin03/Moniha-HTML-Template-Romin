@@ -8,13 +8,19 @@
 }
 /* Medium Devices : 768px and Up */
 @media (min-width: 768px) and (max-width: 991.98px) {
-
+	.masonry {
+		columns: 3;
+	}
 } 
 /* Small Devices : 480px and Up */
 @media (min-width: 480px) and (max-width: 767.98px) {
-
+	.masonry {
+		columns: 1;
+	}
 }
 /* Extra Small Devices : 320px */
 @media (min-width: 320px) and (max-width: 479.98px) {
-
+	.masonry {
+		columns: 1;
+	}
 }
