@@ -13,6 +13,7 @@
 
 	01. Google Fonts
 	02. General css
+	0.  Home Page
 	0.  About Page
 	0.  Gallery Page
 	0.  Contact Page
@@ -47,7 +48,7 @@ textarea:focus, input:focus{
     outline: none;
 }
 .custom-col-4 {
-    width: 30%;
+    width: 33%;
     float: left;
 }
 /* Herder Area Start */
@@ -171,6 +172,287 @@ textarea:focus, input:focus{
     height: 1px;
 }
 /* Section Title End */
+
+/*=====================
+	Home Page Start
+=======================*/
+/*=========================
+	Page Link Area Start
+===========================*/
+.page-link-area {
+    margin: 30px 0 70px;
+}
+.page-link-item {
+    position: relative;
+}
+.page-link-item:before {
+    position: absolute;
+    content: "";
+    width: 88%;
+    height: 81%;
+    border: 1px solid red;
+    top: 20px;
+    left: 20px;
+}
+.page-link-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.page-link-text a {
+    background-color: #eb2f06;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 12px 11px 11px;
+    line-height: 45px;
+    text-align: center;
+	transition: .8s;
+}
+.page-link-text a:hover {
+    color: #eb2f06;
+    background-color: #fff;
+}
+/* Page Link Area End */
+
+
+
+/* Search Start */
+.sidebar-search {
+    position: relative;
+	margin-bottom: 30px;
+	text-align: left;
+}
+.sidebar-search input {
+    border-radius: 30px;
+    width: 100%;
+    padding: 16px 70px 16px 25px;
+    margin-right: -25px;
+    border: 1px solid #bcb9b9;
+    font-style: italic;
+    height: 53px;
+    color: #bcb9b9;
+}
+.sidebar-search input:focus {
+    color: #000;
+}
+.sidebar-search button {
+    background-color: transparent;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    color: #bcb9b9;
+    border-left: 1px solid #bcb9b9;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+/* Search End */
+
+.video-post,
+.most-popular {
+    margin-bottom: 25px;
+}
+.video-post-text {
+    position: relative;
+}
+.video-post-text:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,.61);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.video-post-text a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+}
+.categories ul {
+    text-align: left;
+}
+.categories ul li {
+    border-bottom: 1px solid #dfdcdc;
+    margin-bottom: 9px;
+    align-items: center !important;
+    display: block;
+}
+.categories ul li:first-child {
+    border-top: 1px solid #dfdcdc;
+}
+.categories ul li a {
+    font-size: 13px;
+    line-height: 45px;
+    text-transform: capitalize;
+    color: #2b2b2b;
+}
+.categories ul li a:hover {
+    color: #eb2f06;
+}
+.categories ul li span {
+    float: right;
+    cursor: pointer;
+    font-size: 12px;
+    border: 1px solid #dfdcdc;
+    border-radius: 50%;
+    color: #636262;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 7px;
+}
+.popular-post-item {
+    text-align: left;
+    margin-bottom: 30px;
+}
+.popular-post-img {
+    display: inline-block;
+}
+.popular-post-text {
+    display: inline-block;
+    margin-left: 11px;
+}
+.popular-post-text h4 {
+    margin-bottom: 0;
+}
+.popular-post-text h4 a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #2b2b2b;
+    line-height: 18px;
+}
+.popular-post-text h4 a:hover {
+    color: #eb2f06;
+}
+.popular-post-text span {
+    color: #a19e9d;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.ad {
+    position: relative;
+}
+.ad span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+}
+.fb-cover {
+    background-image: url(assets/images/fb/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130px;
+    position: relative;
+    padding: 10px;
+    text-align: left;
+}
+.fb-cover:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,.1);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.fb-profile {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+}
+.fb-name {
+    display: inline-block;
+    margin-left: 10px;
+    color: #fff;
+}
+.fb-name h5 {
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+.fb-name h5 i {
+    font-size: 10px;
+    background-color: #0b8dff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 3px;
+    margin-left: 3px;
+    text-align: center;
+}
+.fb-name span {
+    font-size: 13px;
+    text-transform: capitalize;
+    line-height: 18px;
+}
+.fb-like {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 3px 5px 2px 5px;
+    display: inline-block;
+    font-size: 13px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.fb-like i {
+	color: #3b579d;
+}
+.fb-like span {
+    padding-left: 4px;
+	color: #575656;
+}
+.fb-friend-list {
+    text-align: left;
+}
+.fb-friend-list p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px !important;
+    padding: 20px 0 8px !important;
+}
+.fb-friend-list ul li {
+    display: inline-block;
+	margin-right: 1px;
+}
+.tags,
+.fb-like-page {
+	margin-top: 30px;
+}
+.tags-list ul li {
+    display: inline-block;
+    margin: 6px 4px;
+}
+.tags-list ul li a {
+    color: #a9a6a6;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 25px;
+    background-color: #efefef;
+    padding: 10px 11px 9px 11px;
+    display: inline-block;
+	transition: .6s;
+}
+.tags-list ul li a:hover {
+    color: #fff;
+    background-color: #eb2f06;
+}
+/* Home Page End */
 
 /*====================== 
 	About Page Start 
@@ -335,7 +617,11 @@ textarea:focus, input:focus{
 }
 .contact-about-me h3,
 .instagram h3,
-.newsletter h3 {
+.newsletter h3,
+.tags h3,
+.video-post h3,
+.categories h3,
+.most-popular h3 {
     font-size: 24px;
     line-height: 45px;
     text-transform: capitalize;
@@ -345,7 +631,11 @@ textarea:focus, input:focus{
 }
 .contact-about-me h3:before,
 .instagram h3:before,
-.newsletter h3:before {
+.newsletter h3:before,
+.tags h3:before,
+.video-post h3:before,
+.categories h3:before,
+.most-popular h3:before {
     content: "";
     position: absolute;
     background-color: #ff3f34;
@@ -396,7 +686,7 @@ textarea:focus, input:focus{
 	margin-bottom: 20px;
 }
 .instagram-img {
-    padding-left: 21px;
+    padding-left: 2px;
 }
 .instagram li {
     padding: 5px;
