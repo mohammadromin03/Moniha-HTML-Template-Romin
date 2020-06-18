@@ -171,6 +171,11 @@ textarea:focus, input:focus{
     background-color: #eb2f06;
     height: 1px;
 }
+.section-categoy {
+    text-transform: capitalize;
+    margin-top: 10px;
+    display: inline-block;
+}
 /* Section Title End */
 
 /*=====================
@@ -217,6 +222,194 @@ textarea:focus, input:focus{
 /* Page Link Area End */
 
 
+/*========================= 
+	Home Page Area Start 
+==========================*/
+.home-area {
+    padding-bottom: 90px;
+}
+.post-item-area {
+    margin-bottom: 65px;
+}
+.post-item-header span {
+    color: #ea2f06;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    display: block;
+}
+.post-item-header h3 {
+    font-size: 27px;
+    line-height: 45px;
+    color: #2b2b2b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.post-date-name {
+    text-align: center;
+    margin: 15px 0;
+}
+.post-date,
+.post-name {
+    color: #a19e9d;
+    font-size: 13px;
+    text-transform: inherit;
+    line-height: 45px;
+    display: inline-block;
+}
+.post-date {
+    margin-right: 25px;
+}
+.post-date a,
+.post-name a {
+    color: #ff3f34;
+}
+.post-shape {
+    float: left;
+    width: 10%;
+    margin-right: 15px;
+    position: relative;
+    padding-top: 5%;
+}
+.post-shape:before {
+    position: absolute;
+    content: "+3";
+    background-color: #ff3f34;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    top: 0px;
+    left: 21px;
+}
+.post-shape img:last-child {
+    position: absolute;
+    top: 65%;
+    left: 48%;
+    transform: translate(-48%, -52%);
+}
+.post-text {
+    width: 90%;
+    display: inline;
+}
+.post-text p {
+    font-size: 18px;
+    line-height: 29px;
+    color: #636262;
+    margin-right: 40px;
+}
+.post-text p span {
+    font-size: 38px;
+    color: #2b2b2b;
+}
+.post-text p:first-child {
+    margin-bottom: 15px;
+    margin-right: 40px;
+}
+.post-text a {
+    color: #eb2f06;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    line-height: 45px;
+	margin-left: 10%;
+}
+.post-social-media ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+.post-social-media ul li a {
+    font-size: 14px;
+	color: #2b2b2b;
+}
+.post-social-media ul li a:hover {
+	color: #ff3f34;
+}
+.leave-comment-social-area {
+    align-items: center !important;
+    border: 1px solid #eee;
+    margin-top: 10px;
+}
+.leave-comment {
+    display: inline-block;
+    padding-left: 12%;
+}
+.post-social-media {
+    display: inline-block;
+    float: right;
+    line-height: 45px;
+    padding-right: 12%;
+}
+.leave-comment p {
+    font-size: 14px;
+    color: #2b2b2b;
+    font-style: italic;
+    line-height: 45px;
+}
+.post-shape-2 {
+    display: inline-flex;
+    float: left;
+    position: relative;
+    padding-bottom: 50px;
+    margin-right: 30px;
+}
+.post-shape-2 span {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 14px;
+    color: #bdbcbc;
+}
+.post-shape-2 img {
+    border: 1px solid #c0bfbf;
+    width: 60px;
+    padding: 10px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.previous-next ul li {
+    display: inline-block;
+}
+.previous-next ul li a {
+    color: #787777;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 50%;
+}
+.previous-next ul li .active,
+.previous-next ul li a:hover {
+    background-color: #eb2f06;
+    color: #fff;
+}
+.previous-next ul li:first-child a {
+    margin-right: 40px;
+}
+.previous-next ul li:last-child a {
+    margin-left: 10px;
+}
+.previous-next ul li:first-child a:hover,
+.previous-next ul li:last-child a:hover {
+    color: #eb2f06;
+	border-radius: 0;
+	background-color: transparent;
+}
+/* Home Page Area End */
+
+
+
+
+/* Sidebar CSS */
 
 /* Search Start */
 .sidebar-search {
@@ -250,7 +443,6 @@ textarea:focus, input:focus{
     transform: translate(0, -50%);
 }
 /* Search End */
-
 .video-post,
 .most-popular {
     margin-bottom: 25px;
