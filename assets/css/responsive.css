@@ -11,12 +11,92 @@
 	.masonry {
 		columns: 3;
 	}
+	.header-top-menu ul li {
+		margin-right: 16px;
+	}
+	.post-text p:first-child {
+		margin-left: 15%;
+	}
+.post-text p {
+    margin-left: 15%;
+}
+.footer-menu ul li {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.fb-friend-list ul li {
+    margin-bottom: 5px;
+}
+.post-shape:before {
+    left: 7px;
+}
 } 
 /* Small Devices : 480px and Up */
 @media (min-width: 480px) and (max-width: 767.98px) {
+	.menu-area {
+    text-align: center;
+}
+	.main-menu ul li {
+    margin: 10px 0;
+}
+.wrapper {
+    display: block;
+    float: none;
+    padding-left: 40%;
+}
+	.header-area-top {
+    text-align: center;
+}
+	.page-link-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header-top-menu ul li {
+    margin-top: 10px;
+}
+.header-top-social ul {
+    text-align: center;
+    margin-top: 25px;
+}
+	.page-link-item:before {
+    width: 73%;
+    top: 22px;
+    left: 60px;
+	border: none;
+}
+	
+	.sidebar-search {
+    margin-top: 30px;
+}
 	.masonry {
 		columns: 1;
 	}
+	.footer-area {
+    text-align: center;
+}
+	.footer-menu ul {
+    text-align: center;
+    margin-top: 15px;
+}
+	.footer-menu ul li {
+    margin-left: 0;
+    margin: 0 15px;
+}
+	.copyright-text p {
+    text-align: center;
+    margin-top: 10px;
+}
+		.post-text p:first-child {
+		margin-left: 15%;
+	}
+.post-text p {
+    margin-left: 15%;
+}
+	
+.post-shape:before {
+    left: 7px;
+}
+	
 }
 /* Extra Small Devices : 320px */
 @media (min-width: 320px) and (max-width: 479.98px) {
